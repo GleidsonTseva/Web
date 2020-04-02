@@ -1,1 +1,8 @@
-h1{color: black}
+h1{
+  color: black;
+}
+/*
+Se algum objeto no arquivo html tem uma classe, então essa classe pode ter estilos declarados a ela
+ex html: <p class="ClasseNova"></p>
+ex css: .ClasseNova{ color: black;}
+*/
