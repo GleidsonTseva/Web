@@ -5,4 +5,8 @@ h1{
 Se algum objeto no arquivo html tem uma classe, então essa classe pode ter estilos declarados a ela
 ex html: <p class="ClasseNova"></p>
 ex css: .ClasseNova{ color: black;}
+
+Se algum objeto no arquivo html tem uma identidade , então essa classe pode ter estilos declarados a ela
+ex html: <p id="identidade"></p>
+ex css: #identidade{ color: black;}
 */
