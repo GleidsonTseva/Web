@@ -46,16 +46,72 @@ Quero botar essa página como curriculum/apresentação
   <br> não é evidente que vocês andam segundo padrões humanos?
   <br>1 Coríntios 3:4
 </p>
- <script>
+
+
+ <form>
+<div>
+<h3> O homem já foi à Lua? </h3>
+  <input type="radio" onclick="perg[0]=[3, 0, 0, 0, 0]">
+  <label> Conheço um homem que foi arrebatado ao terceiro céu.</label><br>
+  <input type="radio" onclick="perg[0]=[0, -1, 0, 0, 0]">
+  <label>A missão Apolo foi uma farsa.</label><br>
+  <input type="radio" onclick="perg[0]=[0, 0, 0, 0, 3]">
+  <label>Por que ninguém pergunta sobre a mulher astronauta?</label><br>
+  <input type="radio" onclick="perg[0]=[0, 0, 0, 0, 0]">
+  <label>kkkk que pergunta fora de contexto</label><br>
+</div><br>
+<div><h3>Quem escreveu a carta aos Hebreus?</h3>
+  <input type="radio" onclick="perg[1]=[2, 0, 0, 0, 0]">
+  <label>Acho que foi Paulo</label><br>
+  <input type="radio" onclick="perg[1]=[0, 5, 0, 0, 0]">
+  <label>Acho que foi Apolo</label><br>
+  <input type="radio" onclick="perg[1]=[0, 0, 2, 0, 0]">
+  <label>Acho que foi Pedro</label><br>
+  <input type="radio" onclick="perg[1]=[0, 0, 0, 0, 2]">
+  <label>Esonderam a autoria na época por questões sociais</label><br>
+</div><br>
+<div><h3>Quem foi oapóstolo mais importante?</h3>
+  <input type="radio" onclick="perg[2]=[3, 0, 0, 0, 0]">
+  <label>Acho que foi Paulo</label><br>
+  <input type="radio" onclick="perg[2]=[0, 5, 0, 0, 0]">
+  <label>Acho que foi Apolo</label><br>
+  <input type="radio" onclick="perg[2]=[0, 0, 3, 0, 0]">
+  <label>Acho que foi Tiago</label><br>
+  <input type="radio" onclick="perg[2]=[0, 0, 0, 3, 0]">
+  <label>Acho que foi Pedro</label><br>
+  <input type="radio" onclick="perg[2]=[0, 0, 0, 0, 3]">
+  <label>Acho que foi a virgem Maria</label><br>
+</div><br>
+ </form>
+
+
+  <div >Pronto pra pergunta?</div>
+<button id="vai" onclick="alert(perg)">Vai</button>
+<button type="button" onclick="Somar(perg)">Resultado</button>
+
+
+<script>
 var pontos=[0, 0, 0, 0, 0]; <!-- [Paulo,Apolo,Pedro,Tiago,Maria]-->
-function dePaulo() {
-  pontos = pontos + [1,0,0,0,0];
+var perg=[[0,0],[0,0]];
+
+function Somar(matriz){
+var x=[0,0,0,0,0];
+for (let i=0; i < matriz.length; i++){
+for(let j=0; j<matriz[i].length; j++){
+x[j] = x[j] + matriz[i][j];}
 }
 
-   
+if(x[0] > x[1]){
+alert("Sou de Paulo");
+}
+else{
+if(x[1] > 2){
+alert("Sou de Apolo");}
+else{
+alert("nem Paulo, nem Apolo");
+}}
+return x;
+}
 </script> 
-  <div id="Pergunta">Pronto pra pergunta?</div>
-  <button type="button" onclick="dePaulo(pontos)">dePaulo</button>
-<button type="button" onclick="alert(pontos)">imprimir pontos</button>
 </body>
 </html>
