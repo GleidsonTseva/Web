@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="Raça de cachorro">
+  <title>Nova raça de cachorro</title>
+  
+<link rel="apple-touch-icon" sizes="180x180" href="/icons/apple-touch-icon.png">
+<link rel="manifest" href="/icons/site.webmanifest">
+<link rel="mask-icon" href="/icons/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+<link rel="icon" type="image/png" sizes="16x16" href="/icons/favicon_16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/icons/favicon_32.png">
+<link rel="shortcut icon" type="image/x-icon" href="/icons/favicon.ico">
+  
+  <style>
+    h1{color:gray}
+  </style>
+  <link type="text/css" rel="stylesheet" href="estilo.css">
+</head>
+  
+<body>
+<!--O objetivo desta página é registrar o plano que eu pretendo seguir para criar uma nova raça de cachorro, vou definir duas palavras, espécie e raça.
+Esta página foi escrita em editor de texte sem revisão de ortografia e de gramática. Nehuma correção será feita após 2024.
+
+Definição do conjunto Espécie:
+Espécie é um conjunto de animais formado pela união de 3 conjuntos, Reprodutores, Ascendentes de Descendentes.
+
+Definição do conjunto Reprodutores:
+Todo XY∈Reprodutores é capaz de gerar descendentes com toda XX∈Reprodutores;
+Todo XY∈Reprodutores é capaz de gerar descendentes ferteis com a maioria das XX∈Reprodutores, toda  XX∈Reprodutores é capaz de gerar descendentes ferteis com a maioria dos XY∈Reprodutores;
+Um descendente é considerado fértil se ele é capaz de gerar descendetes com a maioria dos Reprodutores do sexo oposto;
+A maioria destes descentes férteis de um sexo é capaz de gerar descentes férteis com a maioria dos deestes dencentes férteis do outro sexo.
+
+Definição do conjunto Ascendentes: São os pais e as mães dos Reprodutores.
+
+Definição do conjunto Descendentes:
+São os descendentes (filhos e filhas) dos Reprodutores e os desdendentes de descendentes (definição recurciva) que cujos pais conseguiriam reproduzir com a maioria dos Reprodutores do sexo oposto gerando algum descendente fértil.
+
+--
+
+Definição de Raça:
+Uma Raça é um sub conjunto de uma espécie em que todos os indivídios descendem de um único casal tal que:
+Cada elemento do casal compartilha uma característica genética que não existe na maioria dos elementos da Espécie (no momento em que este casal está vivo);
+Existe alguma característica genética presente na maioria dos elementos da espécie que não está presente no casal (no momento em que este casal está vivo);
+Todo elemento da raça mantem a ausencia ou a presença da genetica citada;
+Os descendentes deste casal sofrem alguma pressão de seleção genética (pode ser gerada pelo hambiente ou artificialmente por humanos);
+A partir do momento em que houver 1 XY e 4 XX dentre os descendentes do casal com as características a seguir, estes 5 animais serão chamados de F0, e F0 faz parte da raça;
+Os descendentes da cruza Fn x Fn = F(n+1),  de Fn x F(n+1) = F(n+1) e de  Fn x F(n+K) = F(n+1);
+A linhagem do casal (incluso) até F0 (incluso) só tem elementos com a desejada pela pressão de seleção (podendo ser aparencia, comportamento ou adaptação física para hambiente/função);
+Se F(n-1) e seu descendente Fn e o descendente deste, F(n+1), não tiverem a característica de pressão seletiva, então F(n+1) não faz parte da raça, até Fn=F10;
+A partir de F10, todo descendente de F9 pertence a Raça desde que a pressão de seleção continue presente.
+A partir de Fn=F3 todo elemento da raça descende de pelo menos 2 XX F0 distintas;
+A partir de Fn=F10, todos descendem de pelo menos 3 XX F0 distintas;
+Apesar de F0 fazer parte da Raça, só pode-se considerar que a raça está formada quando XY F0 gerar seu ultimo filhote.
+
+--
+
+Comentários paralelos:
+Existem raças naturelmente em animais selvagens (ou semi selvagens), geralmente isso ocorre por alguma barreira física que isole parcialmente (ou totalmente) uma população até o surgimento do F10;
+Muitas raças domésticas geram animais com grande probabilidade de de sofrimento e de doenças. Focinho muito curto, excesso de pele e pernas muito curtas em relação ao corpo são exemplos de características que trazem sofrimento ou doença para maior parte de algumas raças; 
+Algumas raças surgiram por pressão seletiva que não deve ocorrer, mas a raça pode ter seleção adaptada para o século XXI.
+Raças como Pit Bull podem ser selecionadas pela habilidade de caça em vez de rinha (por exemplo). Cães de fucinho curto (braquicefálicos) devem ser selecionados pela capacidade respiratória;
+A caça para obtenção de alimento é necessária para a saúde de várias comunidades pelo mundo. A caça de fauna invasora é muito importante para proteger a fauna e flora;
+Clubes de raças não deveriam encorajar reprodutores que que passaram por cirurjia. O padrão estético deve ser natural (sem intervenção cirurgica) e a saúde deve ser garantida sem a necessidade de intervenção;
+
+Biologicamente, humanos são animais, então essa definição de espécie e de raça servem para nós, humanos;
+Não conheço um caso de racismo que não seja maldade, burrice ou fruto de ideias ruins contra outros humanos;
+Inegavelmente os climas Brasileiros com o Sol forte na maior parte do ano é desfavorável para peles brancas. Racismo contra negros no Brasil é burrice;
+Inegavelmente peles escuras são menos adaptadas a climas com pouco Sol durante o ano. Portanto os climas sem graça do polo Norte e polo Sul é desfavoravel para negros;
+Além da proteção contra o Sol, existem várais características que mostram que a divercidade genetica humana é melhor que Eugenia branca racista;
+
+-->
+<h1 style="text-align:center;">Ojetivos principais com a nova raça</h1>
+<p>
+  <a>Ter orelhas naturalmente curtas, pontudas e eretas para nunca se fazer cirurgia de orelha<a/>
+  <br>
+  <a>Ter ocorrência de calda naturalmente curta para nunca se fazer cirurgia no rabo. Pode-se ter indivíduos com rabo normal<a/>
+  <br>
+  <a>Ter proporção física de molosso. Buscar um padrão que se enquadre em Molosso do tipo dogue (Grupo 2 na Sobraci ou na CBKC)<a/>
+  <br>
+  <a>Ter saúde para praticar esportes e para correr uma maratona junto ao dono (com treino adequado em cães adultos)<a/>
+  <br>
+  <a>Ter focinho e dedos pretos. Não ter pelagem predominantemente preta nem predominantemente branca e ter pelo curto<a/>
+  <br><br>
+  <a>NÃO TER predisposição genética a agressão contra humanos ou contra animais (incluindo outros cães)<a/>
+  <br>
+  <a>NÃO TER características genéticas que gere sofrimento nos climas quentes brasileiros<a/>
+  <br>
+  <a>NÃO TER predisposição genética a problemas de saúde comuns em algumas raças de mesmo tamanho<a/>
+  <br>
+  <a>NÃO TER características que tornem o cão exclusivamente urbano ou exclusivamente rural<a/>
+  <br>
+  <a>NÃO TER custo finaceiro maior que um Vira-lata de mesmo porte<a/>
+ 
+</p>
+<h2 style="text-align:center;">Padrão de seleção a longo prazo</h2>
+<p>
+Deve-se selecionar principalmente focando em cãoes de trabalho para pessoas deficientes ou pessoas com doenças.
+ Deve-se usar esportes que simulam caça, guarda e proteção para a manutenção das caracter´siticas físicas de um molosso.
+ Nunca se deve selecionar focando em comportamento de caça ou de guarda nem em cães que necessitem de muita atividade física,
+ a seleção em esportes (incluindo corrida com um humano) serve para testar a saúde e manter o porte físico sem gerar excessos.
+ É desejável que a percepção da raça seja associada a simulação de defesa/proteção e associada a um cão guia, porém todo dono e criador deve saber não é uma raça de guarda.
+ A altura e o peso do cão devem ser focados na função de cão guia e função de auxilio para cadeirantes.
+ Deve-se ter pele aderente na face e não ser um cão babão. Deve-se ter pelo curto de fácil manutenção e que não cai muito, focando em um que pode viver dentro de casa.
+ Deve-se ter pelagem amarela ou marron, de forma que lembre o vira-lata caramelo e lembre o fila brasileiro. Nâo se deseja pelagem tigrada, pintada ou malhada para.
+ Deseja-se pés ou dedos pretos e poucas manchas brancas nas pernas e barriga para que o cão rural não destaque a sujeira da poeira. Não se pode ter branco fora da barriga (ou perna perto da barriga).
+ A genética de cauda "naturalmente cortada" é desejável, mas não é obrigatória.
+ O projeto de criação da raça será divida em algumas fases, e a totalidade dessa seleção só ocorrerá na Fase 2 ou na Fase 3.
+</p>
+
+<h2 style="text-align:center;">Raças geradoras e Fases</h2>
+<p>
+As principais raças serão Fila Brasileiro, Pastor alemão e o Labrador. Na Fase 0 também se incluirá bastante genética de cães SRD (vira-lata).
+<br>
+<br>Fase 0:<br>
+Na Fase 0 o objetivo é alcançar um casal com as características genéticas de orelha em pé, rabo curto, focinho preto, dedos não-brancos, pelo curto, cor caramelo (amarelo ou marrom claro) e tamanho médio/grande.
+ Para alcançar orelhas em pé certamente será usado Pastor Alemão, Pastor Belga e Boiadeiro Australiano (Pode-se usar Akita americano ou Policialzinho).
+ Para a coloração do focinho e dos dedos será usado SRD, Pastor Belga e Pastor Alemão.
+ A genética da cuada é alcançada por cães SRD. O tamanhã é alcançado por SRD e Pastor Alemão (e possivelmente Labrador e Fila).
+ O final dessa fase será alcançado quando almançar um casal com exame negativo para DST canina.
+<br>
+<br>Fase 1:<br>
+A partir da Fase 1, deve-se procriar apenas cães com exame negativo para DSTs caninas.
+ Sabendo que a Fase 0 e a Fase 1 serão em zona rural, é importante garantir o isolamento dos cães para não contraírem DST em caso de suspeita de cio.
+ O objetivo dessa fase será introduzir genética molossoide, preferencialmente vindo de Filas. Deseja-se também genética vinda de Dogo Argentino, Rottweiler, Dogue Alemão e Cane Corso.
+ Deve-se alcaçar uma média 75% (3/4) ou mais de genética molossoide, sendo pelo menos 1/2 Fila, no máximo 1/4 Dogo e no máximo 1/8 europeia.
+ Nesta fase deseja-se 2 fêmeas e 1 macho com essa proporção genética e as características da fase anterior.
+<br>
+<br>Fase 2:<br>
+O objetivo dessa fase é a padronização comportamental, retirando agressividade vinda dos molossos e introduzindo adestrabilidade do Labrador e do Pastor Alemão.
+ Nesta fase pode-se reduzir a proporção de molosso para 5/8, porém deve-se garantir que a mitocondria e os cromossos X e Y sejam vindos de molosso.
+ É desejavel usar a predisposição a guarda e defesa vinda dos molossos como uma propaganda para esse projeto.
+ A princípio os cães serão mostrados como bons cães para fazenda e cães com alguma habilidade de guarda, isso é necessário para adoção dos filhotes que serão usados no aprimoramento.
+ Ao final dessa fase, a propaganda para o projeto deve ser de um cão que aprende e não como um cão com disposição a guarda.
+ Ao final da fase deve-se ter cães que naturamlente não atacam humanos nem animais.
+ Deve-se garantir 1 macho e 3 fêmeas, deve-se garantir que o macho ou todas as femêas descendem dos 3 cães que iniciaram a fase.
+<br>
+<br>Fase 3:<br>
+O objetivo dessa fase é a criação de uma raça começando com 3 linhagens, sendo uma para cada fêmea: Linhagem cão-guia, Linhagem de Propaganda e Linhagem de Longevidade.
+ A partir da fase 5, pode-se reiniciar o dessenvolvimento de novas linhages, onde essas linhagens surgem com fase 3.
+<br>
+A Linhagem de cão-guia terá a introdução de Pastor Alemão e Labrador de linhagens selecionadas para cão-guia e a introdução de cães das outras duas linhagens, focando em 3/4 da outra linhagem e 1/8 Pastor e 1/8 Labrador.
+ A linhagem de cão-guia deve manter o fenótipo e manter a proporção genética adequada.
+<br>
+A linhagem de Propaganda deve ter introdução de Fila e de Boidadeiro Ustraliano (heeler) para fixação de genética molossoide e propaganda como um bom cão de fazenda.
+ A linhagem de Propaganda deve manter o comportamento alcançado na Fase 2 e a porporção de pelo menos 1/2 Fila e 3/8 da própria raça (sendo 1/8 de cada linhagem) e nomáximo 1/8 Heeler.
+ A linhagem de Propaganda deve focar na padronização da aparência.
+<br>
+A linhagem de Longevidade deve ter introdução de Fila e possivelmente de outros molossos, alcançando a proporção mínima de 5/8 Fila e de 1/8 de cada linhagem.
+ Essa linhagem será a que tem reprodução e seleção mais lenta, pois além do comportamento e aparencia, as ninhadas serão criadas antes de se saber se os pais serão aprovados.
+<br>
+A fase termina quando pelo menos 1 casal for aprovado como cão-guia por especialistas e quando um casal de longevidade alcançar 10 anos sendo que os seus pais (2 casasi diferentes) também alcançaram pelo menos 10 anos.
+Além de termos 3 casais (um para cada linhagem),deve existir pelo menos 4 criadores em locais diferentes, sendo ao menos   focado em cada linhagem, nehum focado em 3 linhagens, 1  em área urbana e 1 em área rural, deve existir uma distância a pé maior que uma maratona entre eles e pleo menos um dos criadores deve estar a uma distância tal que nehum cão consegue ir desse criador apra outro em menos de 24h.
+<br>
+<br>Fase 4:<br>
+O objetivo dessa fase é gerar variedade genéticae distribuição geográfica para manter a raça com segurança. Nessa deverá ser criada a Linhagem RS (Rio Grande do Sul).
+ A Linhagem RS será um ramo da Linhagem de Longevidade selecionada em clima frio, nessa linhagem será introduzido Fila, Dogo Argentino e Cimarron uruguayo, convergindo para no mínimo 2/8 Fila, 1/8 de cada linhagem já da Fase 3 1/8 Dogo e 1/8 Cimarron.
+ A linhagem de Propaganda não terá mais introdução de outras raças. A Linhagem de Longevidade será alterada para no mínimo 1/8 Fila e 2/8 de cada Linhagem da Fase 3.
+ A Linhagem de Cão-Guia manterá pelo menos 3/4 como a própria raça, mas garantindo pelo menos 1/4 Cão Guia, 1/4 Longevidade e 1/8 Propaganda.
+<br>Ao final dessa fase deve-se ter ao menos um criador em cada Região do Brasil sendo pelo menos um criador apra cada linhagem: Cão-Guia, Propaganda, Longevidade e RS(essa linhagem deve ser feita apenas no Rio Grande do Sul).
+<br>Se um casal com pais diferentes alcançar 10 anos ou mais e os pais de cada um também alcançarem e foram gerados por introdução de outra raça, então os filhotes desse casal que alcançarem 10 anos ou mais reberão o título de "Longevidade Garantida".
+ Caso os filhotes, os pais e os avôs alcançarem mais que 10 anos de vida, será "Logevidade Garantida+x", onde x é o número de anos de vida além de 10 alcançada pelo cão que viveu menos.
+<br>Se um casal vindo de cães diferentes em que nenhum dos 4 cães é uma raça introduzida e ambos os cães do casal são aprovados como cão-guia, então todo filhote aprovado receberáo título de "Cão-guia Garantido".
+ Se um casal gerar um filhote aprovado para cão guia e apenas um do casal for aprovado, mas os 2 vôs e as 2 avós do filhote forem ambos aprovados (e não forem de outra raça) e o cão não-aprovado do casal for filho de um "Cão-guia Garantido", então o filhote também será "Cão-guia Garantido".
+<br>Quando a Linhagem de longevidade tiver um casal com Longevidade Garantida+1, gerado por 4 cães diferentes, gerar um filhote aprovado para cão guia e outro casal, também gerado por 4 cães diferentes, de tal forma que pelo menos 3 machos e 3 fêmeas geraram esses dois casais, e esse casal também gerar um filhote aprovado, então a Linhagem d eLongevidade não receberá mais introdução de outras raças.
+<br>Depois que a Linhagem de Longevidade for fechada, a Linhage RS será alterada para no mínimo 4/8 da própria raça e no máximo 3/8 de introdução de molossos (sendo no máximo 1/8 Dogo e 1/8 Cimarron).
+<br>
+Ao fim dessa fase a raça está pronta, sendo necessário apenas manutenção, preservação e seleção focando a melhoraria na saúde e na capacidade como cão-guia.
+ Não haverá introdução de outras raças nas linhagens Longevidade, Propaganda e RS, mas haverá análise entre os criadores sobre a necessidade de introdução na linhagem Cão-guia.
+<br>
+<br>Fase 5:<br>
+Após a raça estar pronta, ela poderá ser exportada para criação de até 6 linhagens regionais: América do Norte (no México e talvez sul dos EUA), Europa (Portural), Africa (Angola, Moçambique e Guiné-Bissau), Australia, Polinésia (Timor-Leste) e Ásia (Macau).
+ Depois da criação e consololidação dessas linhagens, os livros de registro deverão ser fechados.
+ A única possíbilidade de se abrir novamente é no caso de alguma linhagem perder todos os criadores.
+<br>
+As linhagens estrangeiras deverão manter pelo menos 1/2 da genética brasileira em cada geração até o fechamento para introdução de outras raças. Deve-se focar em pelo menos 3/4 da genética vinda da própria raça (sendo pelo menos 2/4 do Brasil e 1/4 podendo ser de outra linhageme strangeira, caso exista).
+ Toda linhagem estrangeira deve ser selecionada com foco na comformação da aparência e na saúde.
+<br>A lihagem Norte-Americana poderá ter introdução de Lobos, Coiote, ambos sem usar animais selvagens, Akita Americano, Malamute e Fila Brasileiro.
+<br>A linhagem Europeia poderá ter a introdução de molossos ibéricos, Lobos, Pastor Alemão e Fila Brasileiro.
+<br>A linhagem Africana poderá ter a introdução de SRD locais, Pastor Alemão, Labrador e Fila Brasileiro.
+<br>A linhagem Australiana poderá ter a introdução de Dingo, Heeler e Fila.
+<br>A linhagem do Timor-Leste poderá ter a introdução de Labrador, Pastor, Cão-cantor-da-nova-guiné e Fila.
+<br>A linhagem Chinesa poderá ter a introdução de raças locais, de Labrador, de Pastor Alemão e de Fila Brasileiro.
+</p>
+
+<h3>Redes sociais</h3>
+<p>
+  <a href="https://www.facebook.com/BichoCapital/">Facebook<a/>
+  <br>
+  <a href="https://www.instagram.com/bichocapital/">Instagram<a/>
+</p>
+ 
+</body>
+</html>
