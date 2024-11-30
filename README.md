@@ -35,4 +35,4 @@ Your Pages site will use the layout and styles from the Jekyll theme you have se
 
 # Em Português
 ## Licença
-Todo codigo web (html, Javascript e Css) acessivel por https://gleidsontseva.github.io/Web/ ou https://gleidsontseva.github.io/Tseva/ eh de Dominio Publico. Qualquer texto em linguagem humana eh proprietario com LIcensa de uso viral que descreverei em [Licença de uso](https://gleidsontseva.github.io/Web/license.html)
+Todo codigo web (html, Javascript e Css) acessivel por https://gleidsontseva.github.io/Web/ ou https://gleidsontseva.github.io/Tseva/ eh de Dominio Publico. Qualquer texto em linguagem humana eh proprietario com LIcensa de uso viral que descreverei em [Licença de uso](https://gleidsontseva.github.io/Web/License.html)
