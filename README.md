@@ -32,6 +32,7 @@ For more details see [GitHub Flavored Markdown](https://guides.github.com/featur
 
 Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/GleidsonTseva/Web/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
 
-### Support or Contact
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+# Em Português
+## Licença
+Todo codigo web (html, Javascript e Css) acessivel por https://gleidsontseva.github.io/Web/ ou https://gleidsontseva.github.io/Tseva/ eh de Dominio Publico. Qualquer texto em linguagem humana eh proprietario com LIcensa de uso viral que descreverei em [Licença de uso](https://gleidsontseva.github.io/Web/license.html)
